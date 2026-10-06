@@ -1,0 +1,9 @@
+title: "Yang Hu | Mathematics"
+url: "https://hu000841-math.github.io"
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: Kramdown
+  auto_ids: true
+exclude:
+  - README.md
