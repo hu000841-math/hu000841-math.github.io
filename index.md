@@ -10,9 +10,10 @@ updated: October 2026
 
 # Yang Hu (胡洋)
 
-I am an undergraduate mathematics student at the [University of Minnesota Twin Cities](https://cse.umn.edu/math), where I work with Dihua Jiang on representation theory.
-
+I am an undergraduate mathematics student at the [University of Minnesota Twin Cities](https://cse.umn.edu/math). I am interested in various aspects representation theory, and especially its connection with number theory and geometry. 
 ## Writings
+
+The following are some notes and
 
 - {: #abelian-finite-fields} [**Abelian varieties over finite fields.**](https://drive.google.com/file/d/16v6srhJhKP-dbE84ghbRuIaM8eVpW9Bm/view?usp=drive_link) Expository notes on Ananth Shankar’s lectures at the Arithmetic and Algebraic Geometry Bootcamp, Northwestern University, 2026.
 
@@ -28,13 +29,16 @@ I am an undergraduate mathematics student at the [University of Minnesota Twin C
 
 - [**Finite-field Howe duality.**](https://drive.google.com/file/d/1H1Y563ih03zAxRfPeHQhzHEU8mwvkkrx/view?usp=sharing) An English translation generated with ChatGPT of *Correspondance de Howe pour les groupes réductifs sur les corps finis*.
 
-## Research
+## Research and Thoughts
 
-My interests are in representation theory, number theory, and arithmetic geometry, particularly representations of finite and *p*-adic groups, the Weil representation, and the Howe correspondence.
+I've focused on 
 
 - **On the Centralizer of Oscillator Semigroups over Finite Fields I: Irreducible Representations.** Draft.
 
-  I study irreducible representations of centralizers in Howe’s oscillator semigroups. My ongoing work also investigates their restrictions to classical groups, treating general linear and orthogonal–symplectic dual pairs using finite semigroup representation theory, Harish–Chandra induction, Hecke algebras, and Zelevinsky’s parametrization.
+  I study irreducible representations of centralizers in Howe’s oscillator semigroups. My ongoing work also investigates their restrictions to classical groups, treating general linear and orthogonal–symplectic dual pairs using finite semigroup representation theory, Harish–Chandra induction, Hecke algebras, and Zelevinsky’s parametrization. This also realizes the finite field Howe correspondence.
+
+
+-  This is a short note inspired by the  [**Bootcamp**](https://ashankar91.github.io/aag-bootcamp-2026/index.html). Moret-Bailly constructed a family of non-isotrivial
 
 ## Activities
 
@@ -51,3 +55,7 @@ My interests are in representation theory, number theory, and arithmetic geometr
 - **Learning Seminar on Fourier Analysis, Fall 2024.** Southern University of Science and Technology.
 
   Presented Chapter 5 of Stein’s *Fourier Analysis: An Introduction*.
+
+  ## Misc
+
+  
