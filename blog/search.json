@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "References",
+    "section": "",
+    "text": "The Stacks Project: algebraic Hartogs principle (Tag 0BCS).\nThe Stacks Project: local cohomology."
+  },
+  {
+    "objectID": "posts/frobenius/index.html",
+    "href": "posts/frobenius/index.html",
+    "title": "Frobenius on finite fields",
+    "section": "",
+    "text": "We describe the \\(q\\)-power Frobenius on finite fields and identify its fixed points."
+  },
+  {
+    "objectID": "posts/frobenius/index.html#the-frobenius-automorphism",
+    "href": "posts/frobenius/index.html#the-frobenius-automorphism",
+    "title": "Frobenius on finite fields",
+    "section": "The Frobenius automorphism",
+    "text": "The Frobenius automorphism\nLet \\(q=p^r\\) be a prime power. In any field of characteristic \\(p\\),\n\\[\n(a+b)^p=a^p+b^p,\n\\]\nbecause the intermediate binomial coefficients are divisible by \\(p\\). Iterating gives the same identity for the \\(q\\)th power.\nOn \\(K=\\mathbb F_{q^n}\\), the map \\(F_q(a)=a^q\\) is therefore a field homomorphism. It is injective, hence bijective because \\(K\\) is finite. It fixes \\(\\mathbb F_q\\) pointwise."
+  },
+  {
+    "objectID": "posts/frobenius/index.html#the-fixed-field",
+    "href": "posts/frobenius/index.html#the-fixed-field",
+    "title": "Frobenius on finite fields",
+    "section": "The fixed field",
+    "text": "The fixed field\n\nProposition 1 (Fixed field of the q-power map) The fixed elements of \\(F_q\\) in \\(\\mathbb F_{q^n}\\) are exactly \\(\\mathbb F_q\\).\n\n\nProof. Every element of \\(\\mathbb F_q\\) satisfies \\(a^q=a\\). Conversely, fixed elements are roots of \\(T^q-T\\), a polynomial of degree \\(q\\), so there are at most \\(q\\) of them. The \\(q\\) elements already found exhaust the possibilities.\n\nFor example, write \\(\\mathbb F_4=\\mathbb F_2(\\alpha)\\) with \\(\\alpha^2+\\alpha+1=0\\). Squaring interchanges \\(\\alpha\\) and \\(\\alpha+1\\), and fixes \\(0\\) and \\(1\\).\n\n\n\n\\(a\\)\n\\(0\\)\n\\(1\\)\n\\(\\alpha\\)\n\\(\\alpha+1\\)\n\n\n\n\n\\(a^2\\)\n\\(0\\)\n\\(1\\)\n\\(\\alpha+1\\)\n\\(\\alpha\\)"
+  },
+  {
+    "objectID": "posts/frobenius/index.html#rational-points",
+    "href": "posts/frobenius/index.html#rational-points",
+    "title": "Frobenius on finite fields",
+    "section": "Rational points",
+    "text": "Rational points\nSuppose an affine variety is defined by polynomial equations with coefficients in \\(\\mathbb F_q\\). Raising every coordinate of a solution in \\(\\overline{\\mathbb F}_q\\) to the \\(q\\)th power produces another solution.\nA geometric point is fixed by this operation precisely when every coordinate lies in \\(\\mathbb F_q\\). Thus rational points can be recognized as fixed points of a Frobenius action. For example,\n\\[\n\\mathbb A^1(\\mathbb F_q)\n=\\{a\\in\\overline{\\mathbb F}_q:a^q=a\\}.\n\\]\n\n\n\n\n\n\nNoteFrobenius conventions\n\n\n\nOn \\(\\overline{\\mathbb F}_q\\), the automorphism \\(a\\mapsto a^q\\) is called arithmetic Frobenius. Its inverse is called geometric Frobenius. This note uses the arithmetic convention throughout; the distinction matters when comparing cohomological formulas.\n\n\n← All notes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Math Blog",
+    "section": "",
+    "text": "These are some facts and notes on mathematics that I find interesting."
+  },
+  {
+    "objectID": "index.html#notes",
+    "href": "index.html#notes",
+    "title": "Math Blog",
+    "section": "Notes",
+    "text": "Notes\n\n\n  All\n  \n  \n  Algebraic Geometry\n  \n  Commutative Algebra\n  \n  Arithmetic Geometry\n  \n  Representation Theory\n  \n\n\n\n\n  \n    \n      Hartogs’ principle and Serre’s S₂ condition\n      9 Oct 2026\n    \n    Algebraic Geometry / Commutative Algebra\n    Extension of regular functions across closed subsets of codimension at least two.\n  \n\n  \n    \n      Frobenius on finite fields\n      7 Oct 2026\n    \n    Arithmetic Geometry\n    The fixed field of the q-power Frobenius and its relation to rational points.\n  \n\n  \n    \n      Maschke’s theorem via averaging\n      5 Oct 2026\n    \n    Representation Theory\n    An averaging proof of complete reducibility, with a counterexample in modular characteristic.\n  \n\n\nNo notes in this category.\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site contains notes on algebraic geometry, arithmetic geometry, and representation theory."
+  },
+  {
+    "objectID": "posts/averaging/index.html",
+    "href": "posts/averaging/index.html",
+    "title": "Maschke’s theorem via averaging",
+    "section": "",
+    "text": "We prove Maschke’s theorem by averaging a linear projection over a finite group."
+  },
+  {
+    "objectID": "posts/averaging/index.html#the-averaged-projection",
+    "href": "posts/averaging/index.html#the-averaged-projection",
+    "title": "Maschke’s theorem via averaging",
+    "section": "The averaged projection",
+    "text": "The averaged projection\nLet \\(G\\) be a finite group and \\(V\\) a finite-dimensional representation over a field \\(k\\) in which \\(|G|\\) is invertible. Let \\(W\\subseteq V\\) be a \\(G\\)-stable subspace.\nLinear algebra gives a projection \\(P:V\\to W\\) that restricts to the identity on \\(W\\). But its kernel need not be \\(G\\)-stable. Average its conjugates:\n\\[\n\\overline P=\\frac1{|G|}\\sum_{g\\in G}gPg^{-1}.\n\\tag{1}\\]\nEach summand maps into \\(W\\) and restricts to the identity there. The same is true of \\(\\overline P\\)."
+  },
+  {
+    "objectID": "posts/averaging/index.html#equivariance-and-complete-reducibility",
+    "href": "posts/averaging/index.html#equivariance-and-complete-reducibility",
+    "title": "Maschke’s theorem via averaging",
+    "section": "Equivariance and complete reducibility",
+    "text": "Equivariance and complete reducibility\nFor any \\(h\\in G\\), multiplication by \\(h\\) permutes the group elements. Reindexing Equation 1 therefore gives\n\\[\nh\\overline P h^{-1}\n=\\frac1{|G|}\\sum_{g\\in G}(hg)P(hg)^{-1}\n=\\overline P.\n\\]\nSo \\(\\overline P\\) is \\(G\\)-equivariant, and its kernel is a \\(G\\)-stable complement to \\(W\\).\n\nTheorem 1 (Maschke’s theorem) If \\(G\\) is finite and \\(\\operatorname{char}k\\) does not divide \\(|G|\\), every finite-dimensional representation of \\(G\\) over \\(k\\) is a direct sum of irreducible representations.\n\n\nProof. For a nonzero representation, choose a nonzero invariant subspace of smallest positive dimension; it is irreducible. The averaged projection supplies an invariant complement. Induction on dimension completes the decomposition."
+  },
+  {
+    "objectID": "posts/averaging/index.html#a-counterexample-in-characteristic-p",
+    "href": "posts/averaging/index.html#a-counterexample-in-characteristic-p",
+    "title": "Maschke’s theorem via averaging",
+    "section": "A counterexample in characteristic p",
+    "text": "A counterexample in characteristic p\nIn characteristic \\(p\\), consider a cyclic group of order \\(p\\) acting on \\(k^2\\) by the matrix\n\\[\nT=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}.\n\\]\nWriting \\(T=I+N\\) with \\(N^2=0\\) shows \\(T^p=I\\). The line \\(ke_1\\) is invariant, but has no invariant complementary line. Indeed, a complementary line would have a generator \\(ae_1+be_2\\) with \\(b\\ne0\\). Its image is \\((a+b)e_1+be_2\\); proportionality forces the scalar to be \\(1\\) and then forces \\(b=0\\), a contradiction.\nThe missing factor \\(1/|G|\\) is not merely a problem with the proof: the conclusion can fail.\n← All notes"
+  },
+  {
+    "objectID": "posts/hartogs/index.html",
+    "href": "posts/hartogs/index.html",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "",
+    "text": "Let \\(X\\) be a Noetherian scheme satisfying \\(S_2\\). We consider extension of regular functions from the complement of a closed subset of codimension at least two."
+  },
+  {
+    "objectID": "posts/hartogs/index.html#the-punctured-affine-plane",
+    "href": "posts/hartogs/index.html#the-punctured-affine-plane",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "The punctured affine plane",
+    "text": "The punctured affine plane\nLet \\(k\\) be a field, set \\(A=k[x,y]\\), and remove the origin from \\(X=\\operatorname{Spec}A\\). The resulting open set is\n\\[\nU=D(x)\\cup D(y).\n\\]\nA regular function on \\(U\\) is a pair of functions in \\(A_x\\) and \\(A_y\\) that agree in \\(A_{xy}\\). Since these rings embed in \\(k(x,y)\\), we can identify\n\\[\n\\Gamma(U,\\mathcal O_U)=A_x\\cap A_y=A.\n\\tag{1}\\]\nWhy is the intersection just \\(A\\)? A denominator that is both a power of \\(x\\) and a power of \\(y\\) must cancel: unique factorization and the coprimality of \\(x\\) and \\(y\\) force the rational function to be a polynomial. Removing the origin has introduced no new regular functions."
+  },
+  {
+    "objectID": "posts/hartogs/index.html#the-depth-condition",
+    "href": "posts/hartogs/index.html#the-depth-condition",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "The depth condition",
+    "text": "The depth condition\nA Noetherian ring \\(A\\) satisfies Serre’s condition \\(S_2\\) if, for every prime ideal \\(\\mathfrak p\\),\n\\[\n\\operatorname{depth} A_{\\mathfrak p}\n\\geq \\min\\{2,\\dim A_{\\mathfrak p}\\}.\n\\]\nHere is an affine formulation that makes the codimension hypothesis explicit.\n\nTheorem 1 (Algebraic Hartogs principle) Let \\(A\\) be a Noetherian ring satisfying \\(S_2\\), and let \\(I\\subseteq A\\) be an ideal such that \\(\\operatorname{ht}\\mathfrak p\\geq2\\) for every prime \\(\\mathfrak p\\) containing \\(I\\). If \\(U=\\operatorname{Spec}A\\setminus V(I)\\), restriction gives an isomorphism\n\\[\nA\\xrightarrow{\\sim}\\Gamma(U,\\mathcal O_U).\n\\]\n\nThe height condition says exactly which local rings must have depth at least two. It avoids any ambiguity about codimension when components have different dimensions."
+  },
+  {
+    "objectID": "posts/hartogs/index.html#proof-using-local-cohomology",
+    "href": "posts/hartogs/index.html#proof-using-local-cohomology",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "Proof using local cohomology",
+    "text": "Proof using local cohomology\n\nProof. The local cohomology sequence begins\n\\[\n\\begin{aligned}\n0\\longrightarrow H_I^0(A)\\longrightarrow A\n&\\longrightarrow\\Gamma(U,\\mathcal O_U)\\\\\n&\\longrightarrow H_I^1(A)\\longrightarrow0.\n\\end{aligned}\n\\tag{2}\\]\nFor every \\(\\mathfrak p\\in V(I)\\), the hypotheses give \\(\\operatorname{depth}A_{\\mathfrak p}\\geq2\\). The depth criterion for local cohomology therefore gives \\(H_I^0(A)=H_I^1(A)=0\\). Exactness of Equation 2 proves the claim.\n\nThe two vanishings have different jobs: \\(H_I^0(A)=0\\) gives uniqueness of extension, while \\(H_I^1(A)=0\\) gives existence.\nApplying Theorem 1 on affine open subsets and gluing gives the scheme version: for a Noetherian \\(S_2\\) scheme \\(X\\) and a closed subset \\(Z\\) with \\(\\dim\\mathcal O_{X,z}\\geq2\\) at every \\(z\\in Z\\),\n\\[\n\\Gamma(X,\\mathcal O_X)\\xrightarrow{\\sim}\n\\Gamma(X\\setminus Z,\\mathcal O_X).\n\\]"
+  },
+  {
+    "objectID": "posts/hartogs/index.html#a-codimension-one-counterexample",
+    "href": "posts/hartogs/index.html#a-codimension-one-counterexample",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "A codimension-one counterexample",
+    "text": "A codimension-one counterexample\nRemove the origin from the affine line instead. Now\n\\[\n\\Gamma(\\mathbb A_k^1\\setminus\\{0\\},\\mathcal O)\n=k[t,t^{-1}],\n\\]\nwhich contains \\(t^{-1}\\). This function cannot extend across the origin. The codimension bound in Theorem 1 is doing real work."
+  },
+  {
+    "objectID": "posts/hartogs/index.html#further-reading",
+    "href": "posts/hartogs/index.html#further-reading",
+    "title": "Hartogs’ principle and Serre’s S₂ condition",
+    "section": "Further reading",
+    "text": "Further reading\nThe Stacks Project gives the normal local case in Tag 0BCS. Its chapter on local cohomology develops the exact sequence and vanishing tools used here.\n← All notes"
+  }
+]

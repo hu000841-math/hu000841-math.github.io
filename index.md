@@ -12,6 +12,8 @@ updated: October 2026
 
 I am an undergraduate mathematics student at the [University of Minnesota Twin Cities](https://cse.umn.edu/math). I am interested in various aspects representation theory, and especially its connection with number theory and geometry. 
 
+<a href="/blog/" style="text-decoration: underline;">I have a blog</a>
+
 ## Writings
 
 The following are some notes and
