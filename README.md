@@ -18,7 +18,7 @@ Google Drive 分享链接也可以直接放入括号。保留 `{: #abelian-finit
 
 ## 更新 CV
 
-当前文件为 `assets/Yang_Hu_CV_20261019.pdf`。上传新 PDF 后，修改 `index.md` 顶部的 `cv` 文件路径。
+当前文件为 `assets/Yang_Hu_CV_20261019_v3.pdf`。上传新 PDF 后，修改 `index.md` 顶部的 `cv` 文件路径。
 
 ## 发布
 

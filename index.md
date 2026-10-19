@@ -4,7 +4,7 @@ permalink: /
 title: "Yang Hu's Website"
 description: "Yang Hu's mathematics homepage: writings, research, and academic activities."
 email: hu000841@umn.edu
-cv: assets/Yang_Hu_CV_20261019.pdf
+cv: assets/Yang_Hu_CV_20261019_v3.pdf
 updated: October 19, 2026
 ---
 
@@ -38,6 +38,8 @@ Jump to:
 
 - [The Weil representation over local fields.](https://drive.google.com/file/d/15ps-39MJoJIrPOxIXZXjAwctrbUXkaum/view?usp=sharing) Expository notes from reading with Prof. Dihua Jiang.
 
+- [A short note on surfaces of genus *g*.](https://drive.google.com/file/d/1Wo4fMI8DPvQZMl1S-3vxSZXcS78Mk0pv/view?usp=sharing) Expository notes on surface groups, period lattices, and the Abel–Jacobi map.
+
 - {: #period-rings} [Period rings.](https://drive.google.com/file/d/1C9g1qAAOBA9MCHdIpE2mCjM28UX_oNui/view?usp=sharing) Short wrap-up notes from the Berkeley Directed Reading Program, Fall 2025, on the construction of de Rham and crystalline period rings.
 
 ### Resources
@@ -50,19 +52,23 @@ Jump to:
 
 ## Research
 
-- **On the Centralizer of Oscillator Semigroups over Finite Fields I: Irreducible Representations.** Working draft.
+- **Oscillator semigroups over finite fields: irreducible representations and restrictions.** Working draft.
 
-  I study irreducible representations of centralizers in Howe's oscillator semigroups and their restrictions to classical groups. The project uses finite semigroup representation theory, Harish–Chandra induction, Hecke algebras, and Zelevinsky's parametrization to investigate branching problems and their connection with the Howe correspondence over finite fields.
+  Motivated by Howe's classification and restriction problems, I study irreducible representations of oscillator centralizers over finite fields of odd characteristic and their restrictions to classical groups. The project combines finite semigroup representation theory, Harish-Chandra induction, and Hecke algebras to study representation parameters, restriction multiplicities, and their connection with the Howe correspondence over finite fields.
 
-- Notes on Moret–Bailly families, inspired by the [Northwestern Arithmetic and Algebraic Geometry Bootcamp](https://ashankar91.github.io/aag-bootcamp-2026/index.html).
+- **The oscillator semigroup approach to the Gurevich–Howe conjecture.** In preparation.
+
+  This project explores an approach to the Gurevich–Howe conjecture using oscillator semigroups over finite fields.
 
 ---
 
 ## Activities
 
+Selected seminars, conferences, and summer schools, listed in reverse chronological order.
+
 - [Arithmetic and Algebraic Geometry Bootcamp.](https://ashankar91.github.io/aag-bootcamp-2026/index.html) Northwestern University, Evanston, Illinois, August 17–21, 2026. [Notes](#abelian-finite-fields).
 
-- **Workshop on Character Sheaves and Loop Groups.** University of Minnesota.
+- [Summer Workshop on Character Sheaves on Loop Groups.](https://cse.umn.edu/math/events/summer-workshop-character-sheaves-loop-groups) University of Minnesota Twin Cities, Minneapolis, Minnesota, June 8–12, 2026.
 
 - [Directed Reading Program, Fall 2025.](https://wp.math.berkeley.edu/drp/2025/12/15/fall-2025-wrap-up/) UC Berkeley; mentored by [CJ Dowd](https://math.berkeley.edu/~cjdowd/). Studied the construction of de Rham and crystalline period rings. [Short wrap-up notes](#period-rings).
 
